@@ -97,7 +97,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-  res.send(' this is from relax travel server.')
+  res.send('This is from Relax travel server...')
 })
 
 app.listen(port, () => {
